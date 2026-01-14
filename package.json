@@ -3,7 +3,10 @@
   "private": true,
   "description": "Moodle",
   "scripts": {
-    "upgradenote": "node .grunt/upgradenotes.mjs create"
+    "upgradenote": "node .grunt/upgradenotes.mjs create",
+    "grunt": "grunt",
+    "amd": "grunt amd --force",
+    "js": "grunt js --force"
   },
   "devDependencies": {
     "@babel/core": "7.17.5",
